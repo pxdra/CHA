@@ -1,3 +1,4 @@
+
 //
 //  SecondViewController.m
 //  CHA
@@ -6,17 +7,21 @@
 //  Copyright (c) 2013 Brian Sun. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "FacebookViewController.h"
 
-@interface SecondViewController ()
+@interface FacebookViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation FacebookViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+  NSString * URLFacebookString = @"http://www.facebook.com/childrensortho";
+  NSURL * URLFacebook = [NSURL URLWithString:URLFacebookString];
+  NSURLRequest * URLRequestFacebook = [NSURLRequest requestWithURL:URLFacebook];
+  [_FacebookWebView loadRequest:URLRequestFacebook];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

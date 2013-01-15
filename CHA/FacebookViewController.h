@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface FacebookViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *FacebookWebView;
 
 @end

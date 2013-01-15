@@ -21,9 +21,14 @@
 		9A20536316A5F28800399FB0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20536216A5F28800399FB0 /* FirstViewController.m */; };
 		9A20536516A5F28800399FB0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20536416A5F28800399FB0 /* first.png */; };
 		9A20536716A5F28800399FB0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20536616A5F28800399FB0 /* first@2x.png */; };
-		9A20536A16A5F28800399FB0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20536916A5F28800399FB0 /* SecondViewController.m */; };
+		9A20536A16A5F28800399FB0 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20536916A5F28800399FB0 /* FacebookViewController.m */; };
 		9A20536C16A5F28800399FB0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20536B16A5F28800399FB0 /* second.png */; };
 		9A20536E16A5F28800399FB0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20536D16A5F28800399FB0 /* second@2x.png */; };
+		9A20537516A5F4EB00399FB0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20537416A5F4EB00399FB0 /* home.png */; };
+		9A20537716A5F58000399FB0 /* Fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20537616A5F58000399FB0 /* Fb.png */; };
+		9A20537916A5F79800399FB0 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20537816A5F79800399FB0 /* Twitter.png */; };
+		9A20537B16A5F82300399FB0 /* Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A20537A16A5F82300399FB0 /* Phone.png */; };
+		9A20538016A5F99600399FB0 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20537F16A5F99600399FB0 /* TwitterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +51,16 @@
 		9A20536216A5F28800399FB0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		9A20536416A5F28800399FB0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		9A20536616A5F28800399FB0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		9A20536816A5F28800399FB0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9A20536916A5F28800399FB0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9A20536816A5F28800399FB0 /* FacebookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		9A20536916A5F28800399FB0 /* FacebookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
 		9A20536B16A5F28800399FB0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		9A20536D16A5F28800399FB0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9A20537416A5F4EB00399FB0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		9A20537616A5F58000399FB0 /* Fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fb.png; sourceTree = "<group>"; };
+		9A20537816A5F79800399FB0 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		9A20537A16A5F82300399FB0 /* Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phone.png; sourceTree = "<group>"; };
+		9A20537E16A5F99600399FB0 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		9A20537F16A5F99600399FB0 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +110,19 @@
 				9A20535216A5F28800399FB0 /* AppDelegate.h */,
 				9A20535316A5F28800399FB0 /* AppDelegate.m */,
 				9A20535B16A5F28800399FB0 /* MainStoryboard_iPhone.storyboard */,
+				9A20537A16A5F82300399FB0 /* Phone.png */,
+				9A20537816A5F79800399FB0 /* Twitter.png */,
+				9A20537616A5F58000399FB0 /* Fb.png */,
+				9A20537416A5F4EB00399FB0 /* home.png */,
 				9A20535E16A5F28800399FB0 /* MainStoryboard_iPad.storyboard */,
 				9A20536116A5F28800399FB0 /* FirstViewController.h */,
 				9A20536216A5F28800399FB0 /* FirstViewController.m */,
 				9A20536416A5F28800399FB0 /* first.png */,
 				9A20536616A5F28800399FB0 /* first@2x.png */,
-				9A20536816A5F28800399FB0 /* SecondViewController.h */,
-				9A20536916A5F28800399FB0 /* SecondViewController.m */,
+				9A20536816A5F28800399FB0 /* FacebookViewController.h */,
+				9A20537E16A5F99600399FB0 /* TwitterViewController.h */,
+				9A20537F16A5F99600399FB0 /* TwitterViewController.m */,
+				9A20536916A5F28800399FB0 /* FacebookViewController.m */,
 				9A20536B16A5F28800399FB0 /* second.png */,
 				9A20536D16A5F28800399FB0 /* second@2x.png */,
 				9A20534A16A5F28800399FB0 /* Supporting Files */,
@@ -188,6 +205,10 @@
 				9A20536716A5F28800399FB0 /* first@2x.png in Resources */,
 				9A20536C16A5F28800399FB0 /* second.png in Resources */,
 				9A20536E16A5F28800399FB0 /* second@2x.png in Resources */,
+				9A20537516A5F4EB00399FB0 /* home.png in Resources */,
+				9A20537716A5F58000399FB0 /* Fb.png in Resources */,
+				9A20537916A5F79800399FB0 /* Twitter.png in Resources */,
+				9A20537B16A5F82300399FB0 /* Phone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +222,8 @@
 				9A20535016A5F28800399FB0 /* main.m in Sources */,
 				9A20535416A5F28800399FB0 /* AppDelegate.m in Sources */,
 				9A20536316A5F28800399FB0 /* FirstViewController.m in Sources */,
-				9A20536A16A5F28800399FB0 /* SecondViewController.m in Sources */,
+				9A20536A16A5F28800399FB0 /* FacebookViewController.m in Sources */,
+				9A20538016A5F99600399FB0 /* TwitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
